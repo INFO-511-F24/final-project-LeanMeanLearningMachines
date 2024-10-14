@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -149,9 +149,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project was developed by <strong>[Team Name]</strong> For <a href="https://datasciaz.netlify.app/">INFO 511 - Fundamentals of Data Science</a> at the University of Arizona, taught by Dr.&nbsp;Greg Chism. The team is comprised of the following team members.</p>
+<p>This project was developed by <strong>LeanMeanLearningMachines</strong> For <a href="https://datasciaz.netlify.app/">INFO 511 - Fundamentals of Data Science</a> at the University of Arizona, taught by Dr.&nbsp;Greg Chism. The team is comprised of the following team members.</p>
 <ul>
-<li><p>Team member 1: One sentence description of Team member 1 (e.g., year, major, etc.).</p></li>
+<li><p>Team member 1: Tejas Bhawari - First Year Masters of Science in Data Science Student, RPA Developer</p></li>
 <li><p>Team member 2: One sentence description of Team member 2 (e.g., year, major, etc.).</p></li>
 <li><p>Team member 3: One sentence description of Team member 3 (e.g., year, major, etc.).</p></li>
 <li><p>Team member 4: One sentence description of Team member 4 (e.g., year, major, etc.).</p></li>
@@ -383,24 +383,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/e7563389-a64d-4794-b385-f098fa0ab41d\.netlify\.app\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -435,11 +417,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
