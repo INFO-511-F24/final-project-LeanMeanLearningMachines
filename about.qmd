@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-This project was developed by **LeanMeanLearningMachines** For [INFO 511 - Fundamentals of Data Science](https://datasciaz.netlify.app/) at the University of Arizona, taught by Dr. Greg Chism. The team is comprised of the following team members.
+This project was developed by **1234567** For [INFO 511 - Fundamentals of Data Science](https://datasciaz.netlify.app/) at the University of Arizona, taught by Dr. Greg Chism. The team is comprised of the following team members.
 
 
 -   Team member 1: Tejas Bhawari - First Year Masters of Science in Data Science Student, RPA Developer
