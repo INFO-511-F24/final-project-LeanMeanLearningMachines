@@ -3,6 +3,7 @@ Project Title: [Title of the final project]
 Team Members:
 (NAME: Vidhyananth Sivashanmugam, Contact Information: vidhyananth@arizona.edu)
 (NAME: Michelle Le, Contact Information: michellele@arizona.edu, 623-692-5443(text or call))
+(NAME: Weiliang Deng, Contact Infomation: wldeng@arizona.edu)
 [Name, Contact Information]
 [Name, Contact Information]
 Project Overview
