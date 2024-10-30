@@ -4,7 +4,7 @@ Team Members:
 (NAME: Vidhyananth Sivashanmugam, Contact Information: vidhyananth@arizona.edu)
 (NAME: Michelle Le, Contact Information: michellele@arizona.edu, 623-692-5443(text or call))
 (NAME: Weiliang Deng, Contact Infomation: wldeng@arizona.edu)
-[Name, Contact Information]
+(NAME: Tejas Bhawari, Contact Information: Tejasbhawari@arizona.edu)
 [Name, Contact Information]
 Project Overview
 Project Description: [A brief overview of the project, including the main objectives and purpose.]
@@ -45,7 +45,7 @@ Attempt to resolve the issue through compromise.
 If the conflict persists, consult the project supervisor for guidance.
 Signatures
 By signing below, each team member agrees to the terms of this contract and commits to working together effectively and respectfully.
-[Name]: ________________________ Date: ___________
+[Name]: Tejas Bhawari    Date: 10/29/24
 [Name]: ________________________ Date: ___________
 [Name]: ________________________ Date: ___________
 [Name]: ________________________ Date: ___________
