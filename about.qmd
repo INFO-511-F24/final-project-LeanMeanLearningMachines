@@ -12,7 +12,7 @@ This project was developed by **Lean Mean Learning Machines** For [INFO 511 - Fu
 
 -   Team member 2: Michelle Le - First Year Masters of Science in Data Science student. Software Engineer for American Airlines.
 
--   Team member 3: Weiliang Deng - Second-year phd student in systems and indistrial enginnering.
+-   Team member 3: Weiliang Deng - Second year phd student in systems and indistrial enginnering.
 
 -   Team member 4: Vidhyananth Sivashanmugam - Second year - Master of Science Data science .
 
