@@ -2,7 +2,7 @@
 title: "Proposal title"
 subtitle: "Proposal"
 author: 
-  - name: "Team Name"
+  - name: "Lean Mean Learning Machines"
     affiliations:
       - name: "School of Information, University of Arizona"
 description: "Project description"
@@ -76,3 +76,6 @@ For each data set:
 ## Analysis plan
 
 -   A plan for answering each of the questions including the variables involved, variables to be created (if any), external data to be merged in (if any).
+
+
+

@@ -1,0 +1,93 @@
+---
+title: "Proposal title"
+subtitle: "Proposal"
+author: 
+  - name: "Lean Mean Learning Machines"
+    affiliations:
+      - name: "School of Information, University of Arizona"
+description: "Project description"
+format:
+  html:
+    code-tools: true
+    code-overflow: wrap
+    code-line-numbers: true
+    embed-resources: true
+editor: visual
+code-annotations: hover
+execute:
+  warning: false
+jupyter: python3
+---
+
+```{python}
+#| label: load-pkgs
+#| message: false
+import numpy as np
+import seaborn as sns
+```
+
+## Introduction and data
+
+```{python}
+#| label: load-dataset
+#| message: false
+```
+
+
+
+Make sure to load the data and use inline code for some of this information.
+
+
+## Research Question
+
+This dataset, provided by Ankul Sharma on Kaggle ([link](https://www.kaggle.com/datasets/ankulsharma150/netflix-data-analysis/data)), was last updated on October 15, 2024. It contains data on Netflix movies and TV shows with 12 columns: `show_id`, `type`, `title`, `director`, `cast`, `country`, `date_added`, `release_year`, `rating`, `duration`, `listed_in`, and `description`, while there are some missing values in the columns `director`, `cast`, and `country`.
+
+The research question for this dataset is: **"How do the country of origin, type of content (Movie or TV Show), and rating influence the release year of Netflix shows?"** This original question aims to examine the relationships between these variables, focusing on the **target population**: all Netflix movies and TV shows available globally within the years included in the dataset. The analysis will involve the variables `type`, `country`, `release_year`, and `rating`, which include both categorical and quantitative data types.
+
+This question is significant because understanding these relationships offers insights into Netflix’s evolving content strategy, regional preferences, and content type trends over time. Additionally, it provides a view into how Netflix ratings might be associated with certain types of content and regional production patterns, highlighting trends that could inform future content decisions.
+
+
+### Research Topic & Hypotheses
+**Research Topic:**  
+Analyzing the characteristics and trends in Netflix content based on country, type, and rating across different years.
+
+**Hypotheses:**  
+- H1: Netflix movies and TV shows from different countries show variation in their release years.
+- H2: The type of content (Movie vs. TV Show) has a significant influence on the rating it receives.
+- H3: Higher-rated content is more recent compared to lower-rated content.
+- H4: The length of Netflix movies and TV shows a positive relationship with its rating.
+
+**Variables:**
+- **Categorical Variables:** Country, Type, Rating
+- **Quantitative Variable:** Release Year
+
+
+## Glimpse of data
+
+The dataset contains 12 columns, with the following relevant columns for our research question:
+- `country`: Country where the content was produced.
+- `type`: Whether the content is a Movie or TV Show.
+- `rating`: Content rating (e.g., PG-13, TV-MA).
+- `release_year`: Year when the content was released.
+
+
+## Analysis plan
+
+1. **Data Exploration:**  
+   Use `.head()` and `.info()` functions for an initial exploration of the dataset to confirm data quality and presence of null values.
+   
+2. **Variable Preprocessing:**  
+   - Filter out missing values in the `country` and `rating` columns.
+   - Convert `release_year` into a numeric format if necessary for consistency.
+   
+3. **Statistical Analysis:**  
+   - Perform comparative analysis by country and type to identify trends in release years.
+   - Analyze rating distribution across different types and countries to detect patterns.
+  
+4. **Hypothesis Testing:**  
+   - Use appropriate statistical tests to validate the hypotheses above.
+
+
+
+
+
