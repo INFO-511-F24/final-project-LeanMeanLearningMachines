@@ -12,6 +12,8 @@ website:
         href: index.qmd
       - text: Proposal
         href: proposal.qmd
+      - text: Car Recalls Proposal
+        href: proposal-car-recalls.qmd
       - text: Presentation
         href: presentation.qmd
       - text: About
