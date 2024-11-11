@@ -24,6 +24,7 @@ jupyter: python3
 #| message: false
 import numpy as np
 import seaborn as sns
+import pandas as pd
 ```
 
 ## Introduction and data
@@ -31,6 +32,8 @@ import seaborn as sns
 ```{python}
 #| label: load-dataset
 #| message: false
+
+Netflix_dt = pd.read_csv('data/netflix_movies (1).csv')
 ```
 
 Make sure to load the data and use inline code for some of this information.
@@ -56,6 +59,13 @@ Analyzing the characteristics and trends in Netflix content based on country, ty
 ## Glimpse of data
 
 The dataset contains 12 columns, with the following relevant columns for our research question: - `country`: Country where the content was produced. - `type`: Whether the content is a Movie or TV Show. - `rating`: Content rating (e.g., PG-13, TV-MA). - `release_year`: Year when the content was released.
+
+```{python}
+#| label: Glimpse of the data
+
+Netflix_dt.head()
+Netflix_dt.info()
+```
 
 ## Analysis plan
 
