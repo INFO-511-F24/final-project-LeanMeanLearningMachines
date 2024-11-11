@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This project was developed by Lean Mean Learning Machines For INFO 511 - Fundamentals of Data Science at the University of Arizona, taught by Dr. Greg Chism. The team is comprised of the following team members.\n\nTeam member 1: Tejas Bhawari - First Year Masters of Science in Data Science Student, RPA Developer\nTeam member 2: Michelle Le - First Year Masters of Science in Data Science student. Software Engineer for American Airlines.\nTeam member 3: Weiliang Deng - Second year phd student in systems and indistrial enginnering.\nTeam member 4: Vidhyananth Sivashanmugam - Second year - Master of Science Data science .\nTeam member 5: Diana Ayala - Second Year Masters of Information Science. Business Intelligence Analyst for Arizona State Univ"
-  },
-  {
     "objectID": "proposal.html",
     "href": "proposal.html",
     "title": "Proposal title",
@@ -42,74 +35,32 @@
     "text": "Analysis plan\n\nA plan for answering each of the questions including the variables involved, variables to be created (if any), external data to be merged in (if any)."
   },
   {
-    "objectID": "proposal for nextflix dataset.html",
-    "href": "proposal for nextflix dataset.html",
-    "title": "Proposal title",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "import numpy as np\nimport seaborn as sns"
-  },
-  {
-    "objectID": "proposal for nextflix dataset.html#introduction-and-data",
-    "href": "proposal for nextflix dataset.html#introduction-and-data",
-    "title": "Proposal title",
-    "section": "Introduction and data",
-    "text": "Introduction and data\nMake sure to load the data and use inline code for some of this information."
-  },
-  {
-    "objectID": "proposal for nextflix dataset.html#research-question",
-    "href": "proposal for nextflix dataset.html#research-question",
-    "title": "Proposal title",
-    "section": "Research Question",
-    "text": "Research Question\nThis dataset, provided by Ankul Sharma on Kaggle (link), was last updated on October 15, 2024. It contains data on Netflix movies and TV shows with 12 columns: show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, and description, while there are some missing values in the columns director, cast, and country.\nThe research question for this dataset is: “How do the country of origin, type of content (Movie or TV Show), and rating influence the release year of Netflix shows?” This original question aims to examine the relationships between these variables, focusing on the target population: all Netflix movies and TV shows available globally within the years included in the dataset. The analysis will involve the variables type, country, release_year, and rating, which include both categorical and quantitative data types.\nThis question is significant because understanding these relationships offers insights into Netflix’s evolving content strategy, regional preferences, and content type trends over time. Additionally, it provides a view into how Netflix ratings might be associated with certain types of content and regional production patterns, highlighting trends that could inform future content decisions.\n\nResearch Topic & Hypotheses\nResearch Topic:\nAnalyzing the characteristics and trends in Netflix content based on country, type, and rating across different years.\nHypotheses:\n- H1: Netflix movies and TV shows from different countries show variation in their release years. - H2: The type of content (Movie vs. TV Show) has a significant influence on the rating it receives. - H3: Higher-rated content is more recent compared to lower-rated content. - H4: The length of Netflix movies and TV shows a positive relationship with its rating.\nVariables: - Categorical Variables: Country, Type, Rating - Quantitative Variable: Release Year"
-  },
-  {
-    "objectID": "proposal for nextflix dataset.html#glimpse-of-data",
-    "href": "proposal for nextflix dataset.html#glimpse-of-data",
-    "title": "Proposal title",
-    "section": "Glimpse of data",
-    "text": "Glimpse of data\nThe dataset contains 12 columns, with the following relevant columns for our research question: - country: Country where the content was produced. - type: Whether the content is a Movie or TV Show. - rating: Content rating (e.g., PG-13, TV-MA). - release_year: Year when the content was released."
-  },
-  {
-    "objectID": "proposal for nextflix dataset.html#analysis-plan",
-    "href": "proposal for nextflix dataset.html#analysis-plan",
-    "title": "Proposal title",
-    "section": "Analysis plan",
-    "text": "Analysis plan\n\nData Exploration:\nUse .head() and .info() functions for an initial exploration of the dataset to confirm data quality and presence of null values.\nVariable Preprocessing:\n\nFilter out missing values in the country and rating columns.\nConvert release_year into a numeric format if necessary for consistency.\n\nStatistical Analysis:\n\nPerform comparative analysis by country and type to identify trends in release years.\nAnalyze rating distribution across different types and countries to detect patterns.\n\nHypothesis Testing:\n\nUse appropriate statistical tests to validate the hypotheses above."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Project Title",
-    "section": "",
-    "text": "Add project abstract here."
-  },
-  {
-    "objectID": "index.html#abstract",
-    "href": "index.html#abstract",
-    "title": "Project Title",
-    "section": "",
-    "text": "Add project abstract here."
+    "text": "This project was developed by Lean Mean Learning Machines For INFO 511 - Fundamentals of Data Science at the University of Arizona, taught by Dr. Greg Chism. The team is comprised of the following team members.\n\nTeam member 1: Tejas Bhawari - First Year Masters of Science in Data Science Student, RPA Developer\nTeam member 2: Michelle Le - First Year Masters of Science in Data Science student. Software Engineer for American Airlines.\nTeam member 3: Weiliang Deng - second-year phd student in systems and indistrial enginnering.\nTeam member 4: Vidhyananth Sivashanmugam - Second year - Master of Science Data science .\nTeam member 5: Diana Ayala - Second Year Masters of Information Science. Business Intelligence Analyst for Arizona State Univ"
   },
   {
     "objectID": "presentation.html#quarto",
     "href": "presentation.html#quarto",
     "title": "Project title",
-    "section": "",
-    "text": "The presentation is created using the Quarto CLI\n## sets the start of a new slide"
+    "section": "Quarto",
+    "text": "Quarto\n\nThe presentation is created using the Quarto CLI\n## sets the start of a new slide"
   },
   {
     "objectID": "presentation.html#layouts",
     "href": "presentation.html#layouts",
     "title": "Project title",
-    "section": "",
-    "text": "You can use plain text\n\n\n\nor bullet points1\n\n\nor in two columns\n\n\n\nlike\nthis"
+    "section": "Layouts",
+    "text": "Layouts\nYou can use plain text\n\n\n\nor bullet points1\n\n\nor in two columns\n\n\nlike\nthis\n\nAnd add footnotes"
   },
   {
     "objectID": "presentation.html#code",
     "href": "presentation.html#code",
     "title": "Project title",
-    "section": "",
-    "text": "OLS Regression Results                            \n==============================================================================\nDep. Variable:                    mpg   R-squared:                       0.073\nModel:                            OLS   Adj. R-squared:                  0.070\nMethod:                 Least Squares   F-statistic:                     30.59\nDate:                Thu, 07 Nov 2024   Prob (F-statistic):           5.84e-08\nTime:                        22:04:34   Log-Likelihood:                -1346.4\nNo. Observations:                 392   AIC:                             2697.\nDf Residuals:                     390   BIC:                             2705.\nDf Model:                           1                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P&gt;|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst         35.8015      2.266     15.800      0.000      31.347      40.257\nspeed       -354.7055     64.129     -5.531      0.000    -480.788    -228.623\n==============================================================================\nOmnibus:                       27.687   Durbin-Watson:                   0.589\nProb(Omnibus):                  0.000   Jarque-Bera (JB):               18.976\nSkew:                           0.420   Prob(JB):                     7.57e-05\nKurtosis:                       2.323   Cond. No.                         169.\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified."
+    "section": "Code",
+    "text": "Code\n\n\n                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                    mpg   R-squared:                       0.073\nModel:                            OLS   Adj. R-squared:                  0.070\nMethod:                 Least Squares   F-statistic:                     30.59\nDate:                Mon, 08 Jul 2024   Prob (F-statistic):           5.84e-08\nTime:                        11:38:07   Log-Likelihood:                -1346.4\nNo. Observations:                 392   AIC:                             2697.\nDf Residuals:                     390   BIC:                             2705.\nDf Model:                           1                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P&gt;|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst         35.8015      2.266     15.800      0.000      31.347      40.257\nspeed       -354.7055     64.129     -5.531      0.000    -480.788    -228.623\n==============================================================================\nOmnibus:                       27.687   Durbin-Watson:                   0.589\nProb(Omnibus):                  0.000   Jarque-Bera (JB):               18.976\nSkew:                           0.420   Prob(JB):                     7.57e-05\nKurtosis:                       2.323   Cond. No.                         169.\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified."
   },
   {
     "objectID": "presentation.html#plots",
@@ -122,8 +73,8 @@
     "objectID": "presentation.html#plot-and-text",
     "href": "presentation.html#plot-and-text",
     "title": "Project title",
-    "section": "",
-    "text": "Some text\ngoes here"
+    "section": "Plot and text",
+    "text": "Plot and text\n\n\n\nSome text\ngoes here"
   },
   {
     "objectID": "presentation.html#tables",
@@ -137,7 +88,7 @@
     "href": "presentation.html#images",
     "title": "Project title",
     "section": "Images",
-    "text": "Images\n\n\n\nImage credit: Danielle Navarro, Percolate."
+    "text": "Images\n\nImage credit: Danielle Navarro, Percolate."
   },
   {
     "objectID": "presentation.html#math-expressions",
@@ -154,52 +105,24 @@
     "text": "Feeling adventurous?\n\nYou are welcomed to use the default styling of the slides. In fact, that’s what I expect majority of you will do. You will differentiate yourself with the content of your presentation.\nBut some of you might want to play around with slide styling. Some solutions for this can be found at https://quarto.org/docs/presentations/revealjs."
   },
   {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "Project title",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Title",
     "section": "",
-    "text": "The presentation is created using the Quarto CLI\n## sets the start of a new slide\n\n\n\n\nYou can use plain text\n\n\n\nor bullet points1\n\n\nor in two columns\n\n\n\nlike\nthis\n\n\n\n\n\n\n                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                    mpg   R-squared:                       0.073\nModel:                            OLS   Adj. R-squared:                  0.070\nMethod:                 Least Squares   F-statistic:                     30.59\nDate:                Thu, 07 Nov 2024   Prob (F-statistic):           5.84e-08\nTime:                        22:04:34   Log-Likelihood:                -1346.4\nNo. Observations:                 392   AIC:                             2697.\nDf Residuals:                     390   BIC:                             2705.\nDf Model:                           1                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P&gt;|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst         35.8015      2.266     15.800      0.000      31.347      40.257\nspeed       -354.7055     64.129     -5.531      0.000    -480.788    -228.623\n==============================================================================\nOmnibus:                       27.687   Durbin-Watson:                   0.589\nProb(Omnibus):                  0.000   Jarque-Bera (JB):               18.976\nSkew:                           0.420   Prob(JB):                     7.57e-05\nKurtosis:                       2.323   Cond. No.                         169.\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSome text\ngoes here"
+    "text": "Add project abstract here."
   },
   {
-    "objectID": "presentation.html#footnotes",
-    "href": "presentation.html#footnotes",
-    "title": "Project title",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nAnd add footnotes↩︎"
-  },
-  {
-    "objectID": "proposal-car-recalls.html",
-    "href": "proposal-car-recalls.html",
-    "title": "Car Recalls",
+    "objectID": "index.html#abstract",
+    "href": "index.html#abstract",
+    "title": "Project Title",
     "section": "",
-    "text": "import pandas as pd\nimport numpy as np\nimport seaborn as sns"
+    "text": "Add project abstract here."
   },
   {
-    "objectID": "proposal-car-recalls.html#introduction-and-data",
-    "href": "proposal-car-recalls.html#introduction-and-data",
-    "title": "Car Recalls",
-    "section": "Introduction and data",
-    "text": "Introduction and data\n\ncar_recalls = pd.read_csv(\"./data/Recalls_Data.csv\")\ncar_recalls.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 28461 entries, 0 to 28460\nData columns (total 15 columns):\n #   Column                                    Non-Null Count  Dtype  \n---  ------                                    --------------  -----  \n 0   Report Received Date                      28461 non-null  object \n 1   NHTSA ID                                  28461 non-null  object \n 2   Recall Link                               28461 non-null  object \n 3   Manufacturer                              28461 non-null  object \n 4   Subject                                   28461 non-null  object \n 5   Component                                 28461 non-null  object \n 6   Mfr Campaign Number                       28414 non-null  object \n 7   Recall Type                               28461 non-null  object \n 8   Potentially Affected                      28420 non-null  float64\n 9   Recall Description                        26060 non-null  object \n 10  Consequence Summary                       23573 non-null  object \n 11  Corrective Action                         26073 non-null  object \n 12  Park Outside Advisory                     28461 non-null  object \n 13  Do Not Drive Advisory                     28461 non-null  object \n 14  Completion Rate % (Blank - Not Reported)  9848 non-null   float64\ndtypes: float64(2), object(13)\nmemory usage: 3.3+ MB\n\n\n\nIdentify the source of the data.\nThis data was collected by manufacturers who are required to report to National Highway Traffic Safety Administration (NHTSA) whenever they find a safety defect in their products. The safety guidelines of a product must align with the National Traffic and Motor Safety Act.\nThis dataset contains 15 columns, primarily consisting of categorical data such as manufacturer, components affected, recall type, etc. There are two numerical data variables - number of potentially affected products and completion rates, if available."
-  },
-  {
-    "objectID": "proposal-car-recalls.html#research-question",
-    "href": "proposal-car-recalls.html#research-question",
-    "title": "Car Recalls",
-    "section": "Research Question",
-    "text": "Research Question\nYour research question should contain at least three variables, and should be a mix of categorical and quantitative variables. When writing a research question, please think about the following:\n\nWhat is your target population?\nIs the question original?\nCan the question be answered?\n\nFor each data set, include the following:\n\nA well formulated research question. (You may include more than one research question if you want to receive feedback on different ideas for your project. However, one per data set is required.)\nStatement on why this question is important.\nA description of the research topic along with a concise statement of your hypotheses on this topic.\nIdentify the types of variables in your research question. Categorical? Quantitative?"
-  },
-  {
-    "objectID": "proposal-car-recalls.html#glimpse-of-data",
-    "href": "proposal-car-recalls.html#glimpse-of-data",
-    "title": "Car Recalls",
-    "section": "Glimpse of data",
-    "text": "Glimpse of data\nFor each data set:\n\nPlace the file containing your data in the data folder of the project repo.\nUse the .head() and .info() functions to provide a glimpse of the data set."
-  },
-  {
-    "objectID": "proposal-car-recalls.html#analysis-plan",
-    "href": "proposal-car-recalls.html#analysis-plan",
-    "title": "Car Recalls",
-    "section": "Analysis plan",
-    "text": "Analysis plan\n\nA plan for answering each of the questions including the variables involved, variables to be created (if any), external data to be merged in (if any)."
+    "objectID": "contract.html",
+    "href": "contract.html",
+    "title": "Project Title",
+    "section": "",
+    "text": "Team Project Contract Project Title: [Title of the final project] Team Members: (NAME: Vidhyananth Sivashanmugam, Contact Information: vidhyananth@arizona.edu) (NAME: Michelle Le, Contact Information: michellele@arizona.edu, 623-692-5443(text or call)) [Name, Contact Information] [Name, Contact Information] Project Overview Project Description: [A brief overview of the project, including the main objectives and purpose.] Expected Deliverables: [List of specific outputs, such as final visualizations, reports, presentations.] Team Goals Project Goals: [A few bullet points outlining what the team aims to achieve.] Learning Objectives: [What skills or knowledge each team member hopes to develop.] Team Roles and Responsibilities Roles (change as needed): Project Manager: [Name] – Ensures timelines are met, organizes meetings, and manages communications. Data Analyst: [Name] – Responsible for data cleaning, analysis, and exploratory visualizations. Visualization Specialist: [Name] – Designs the final visualizations and makes aesthetic choices. Documentation Lead: [Name] – Keeps detailed notes, ensures all project decisions are documented, and handles the final report. Responsibilities: General Responsibilities: Each team member is responsible for: Participating actively in all meetings. Completing their assigned tasks on time. Communicating openly and promptly if issues arise. Communication Plan Meeting Schedule: Weekly on [Day] at [Time] via [platform]. Primary Communication Platform: [Platform, e.g., Slack]. Decision-Making Process: Decisions will be made by consensus; if a consensus cannot be reached, a vote will be taken. Work Plan and Timeline Milestones: Data Collection and Cleaning: Completed by [Date]. Exploratory Data Analysis: Completed by [Date]. Design of Visualizations: Completed by [Date]. Final Presentation and Report: Completed by [Date]. Task Assignments: [Use a table to assign tasks to team members with due dates.] Accountability and Expectations Attendance Policy: All team members are expected to attend scheduled meetings unless previously discussed. Quality of Work: All deliverables should be completed to a professional standard. Deadlines: All members are responsible for meeting deadlines. If someone cannot meet a deadline, they must notify the team in advance. Conflict Resolution Plan Conflict Management: If a conflict arises, team members will: Discuss the issue openly during a team meeting. Attempt to resolve the issue through compromise. If the conflict persists, consult the project supervisor for guidance. Signatures By signing below, each team member agrees to the terms of this contract and commits to working together effectively and respectfully. [Name]: ________________________ Date: ___________ [Name]: ________________________ Date: ___________ [Name]: ________________________ Date: ___________ [Name]: ________________________ Date: ___________"
   }
 ]
