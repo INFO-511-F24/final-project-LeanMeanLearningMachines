@@ -36,7 +36,6 @@ import pandas as pd
 Netflix_dt = pd.read_csv('data/netflix_movies (1).csv')
 ```
 
-Make sure to load the data and use inline code for some of this information.
 
 This dataset, provided by Ankul Sharma on Kaggle ([link](https://www.kaggle.com/datasets/ankulsharma150/netflix-data-analysis/data)), was last updated on October 15, 2024. It contains data on Netflix movies and TV shows with 12 columns: `show_id`, `type`, `title`, `director`, `cast`, `country`, `date_added`, `release_year`, `rating`, `duration`, `listed_in`, and `description`, while there are some missing values in the columns `director`, `cast`, and `country`.
 
@@ -52,7 +51,11 @@ This question is significant because understanding these relationships offers in
 Analyzing the characteristics and trends in Netflix content based on country, type, and rating across different years.
 
 **Hypotheses:**\
-- H1: Netflix movies and TV shows from different countries show variation in their release years. - H2: The type of content (Movie vs. TV Show) has a significant influence on the rating it receives. - H3: Higher-rated content is more recent compared to lower-rated content. - H4: The length of Netflix movies and TV shows a positive relationship with its rating.
+
+- H1: Netflix movies and TV shows from different countries show variation in their release years. 
+- H2: The type of content (Movie vs. TV Show) has a significant influence on the rating it receives. 
+- H3: Higher-rated content is more recent compared to lower-rated content. 
+- H4: The length of Netflix movies and TV shows a positive relationship with its rating.
 
 **Variables:** - **Categorical Variables:** Country, Type, Rating - **Quantitative Variable:** Release Year
 
