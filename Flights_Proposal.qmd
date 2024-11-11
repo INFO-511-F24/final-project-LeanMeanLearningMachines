@@ -40,7 +40,7 @@ Make sure to load the data and use inline code for some of this information.
 
 The source of the Dataset :
 
-([Flights Dataset Link](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-07-12))
+(https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-07-12)
 
 The data was collected in Europe by the Air Traffic Flow Management (ATFM) which had required information in detail which was provided by The Europe ATC (Air Traffic Control). This data contains flight records for Belgian airports and our main objective is to explore flight patterns, trends, and relationships across different airports in Belgium.
 
@@ -86,9 +86,10 @@ The study will analyze monthly total departures and arrivals at Brussels Airport
 ## Glimpse of data
 
 ```{python}
-#| label: Glimpse of the data
-
 Flights_dt.head()
+```
+
+```{python}
 Flights_dt.info()
 ```
 
