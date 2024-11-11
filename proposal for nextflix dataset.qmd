@@ -1,5 +1,5 @@
 ---
-title: "Proposal title"
+title: "Netflix Dataset"
 subtitle: "Proposal"
 author: 
   - name: "Lean Mean Learning Machines"
@@ -38,9 +38,9 @@ Netflix_dt = pd.read_csv('data/netflix_movies (1).csv')
 
 Make sure to load the data and use inline code for some of this information.
 
-## Research Question
-
 This dataset, provided by Ankul Sharma on Kaggle ([link](https://www.kaggle.com/datasets/ankulsharma150/netflix-data-analysis/data)), was last updated on October 15, 2024. It contains data on Netflix movies and TV shows with 12 columns: `show_id`, `type`, `title`, `director`, `cast`, `country`, `date_added`, `release_year`, `rating`, `duration`, `listed_in`, and `description`, while there are some missing values in the columns `director`, `cast`, and `country`.
+
+## Research Question
 
 The research question for this dataset is: **"How do the country of origin, type of content (Movie or TV Show), and rating influence the release year of Netflix shows?"** This original question aims to examine the relationships between these variables, focusing on the **target population**: all Netflix movies and TV shows available globally within the years included in the dataset. The analysis will involve the variables `type`, `country`, `release_year`, and `rating`, which include both categorical and quantitative data types.
 
