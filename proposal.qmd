@@ -1,5 +1,5 @@
 ---
-title: "Proposal title"
+title: "Flights Dataset"
 subtitle: "Proposal"
 author: 
   - name: "Lean Mean Learning Machines"
@@ -23,6 +23,7 @@ jupyter: python3
 #| label: load-pkgs
 #| message: false
 import numpy as np
+import pandas as pd
 import seaborn as sns
 ```
 
@@ -31,51 +32,81 @@ import seaborn as sns
 ```{python}
 #| label: load-dataset
 #| message: false
+flights_dt = pd.read_csv('data/flights.csv')
 ```
 
-For each data set:
+The source of the Dataset : [TidyTuesday GitHub](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-07-12){.external target="_blank"}
 
-- Identify the source of the data.
-
-- State when and how it was originally collected (by the original data curator, not necessarily how you found the data).
-
-- Write a brief description of the observations.
-
-- Address ethical concerns about the data, if any.
-
-Make sure to load the data and use inline code for some of this information.
+This data comes from Eurocontrol, an international organization for air traffic control management throughout Europe. Air Traffic Flow Management (ATFM) collects information on daily flights arriving and departing European airports. This data contains `{python} len(flights_dt.columns)` columns and `{python} len(flights_dt)` rows for flights from the years of 2017 to 2022. The columns contain information such as the date of the flight, airport designator, airport name, country of the airport, and the numbers of departures and arrivals to the airport. Our focus will be on Belgian airports and our main objective is to explore flight patterns, trends, and relationships across different airports in Belgium. There are no ethical concerns towards the use and analysis of this data.
 
 ## Research Question
 
-Your research question should contain at least three variables, and should be a mix of categorical and quantitative variables. When writing a research question, please think about the following:
+**Research Question:** How is the total number monthly flight departures ad arrivals at Brussels Airport comparatively to other major airports in Belgium, and what are the seasonal trends over the year?
 
-- What is your target population?
+**Variables Involved**
 
-- Is the question original?
+Quantative Variables:
 
-- Can the question be answered?
+-   `FLT_DEP_1` - Contains total number of departing flights
 
-For each data set, include the following:
+-   `FLT_ARR_1` - Contains total number of arriving flights
 
-- A well formulated research question. (You may include more than one research question if you want to receive feedback on different ideas for your project. However, one per data set is required.)
+Categorical Variables:
 
-- Statement on why this question is important.
+-   `APT_NAME` - Conatins airport names
 
-- A description of the research topic along with a concise statement of your hypotheses on this topic.
+-   `STATE_NAME` - Contains name of the country
 
-- Identify the types of variables in your research question. Categorical? Quantitative?
+-   `MONTH_MON` - Contains the month in which the records of departures and arrivals took place
+
+**Target population**
+
+The target population for this study consists of flight details for major Belgian airports, with comparing Brussels Airport to other airports in the dataset.
+
+**Importance of this research question**
+
+This research question is important because the Brussels Airport is one of the most busiest Airport in Europe. So, the findings could assist airport management to plan ahead of the seasonal changes which could improve the Airports Efficeincy.
 
 ## Glimpse of data
 
-For each data set:
+```{python}
+flights_dt.head()
+```
 
-- Place the file containing your data in the data folder of the project repo.
-
-- Use the `.head()` and `.info()` functions to provide a glimpse of the data set.
+```{python}
+flights_dt.info()
+```
 
 ## Analysis plan
 
--   A plan for answering each of the questions including the variables involved, variables to be created (if any), external data to be merged in (if any).
+**Data Exploration:**
 
+1.  Initial Exploration:
 
+    -   Use `.head()` to display first few rows of the dataset.
 
+    -   Use `.info()` to check the data types of each column and any null column values.
+
+    -   Filter the data to only display data where the airport is located in Belgium.
+
+    -   Determine the unique cities in Belgium to set up for future comparisons.
+
+**Variable Preprocessing:**
+
+1.  Handling Missing Values:
+    -   Filtering out the missing values in key columns to ensure the data consistency during analysis.
+2.  Data Type Conversion:
+    -   Ensuring the columns are in the desired format which is required if not, convert them.
+
+**Statistical Analysis:**
+
+1.  Comparative Analysis by Airport:
+    -   `APT_NAME` and `MONTH_MON` to calculate the summary statistics for flight departures and arrivals.
+
+    -   Create a time series graphs for total departures `FLT_DEPT_1` and arrivals `FLT_ARR_1` to identify monthly and yearly trends at Brussels Airport compared to other Airports.
+2.  Seasonal Analysis:
+    -   Create bar plots and line graph to visualize seasonal trends in departures and arrivals , comparing different airports and months.
+
+**Hypothesis Testing:**
+
+-   Using Chi-Square Test or H - Test depending on the output.
