@@ -1,5 +1,5 @@
 ---
-title: "Project title"
+title: "Flight Matrix"
 subtitle: "INFO 511 - Fall 2024 - Final Project"
 author: "Author names"
 title-slide-attributes:
