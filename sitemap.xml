@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/proposal.html</loc>
-    <lastmod>2024-10-18T00:44:06.034Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/about.html</loc>
-    <lastmod>2024-10-18T00:44:06.021Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/presentation.html</loc>
-    <lastmod>2024-10-18T00:44:06.034Z</lastmod>
-  </url>
-  <url>
-    <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/index.html</loc>
-    <lastmod>2024-10-18T00:44:06.034Z</lastmod>
+    <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/data/README 2.html</loc>
+    <lastmod>2024-10-10T23:24:44.000Z</lastmod>
   </url>
   <url>
     <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/contract.html</loc>
-    <lastmod>2024-10-18T00:44:06.022Z</lastmod>
+    <lastmod>2024-11-14T09:06:38.201Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/index.html</loc>
+    <lastmod>2024-11-14T09:06:38.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/presentation.html</loc>
+    <lastmod>2024-11-14T09:06:38.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/about.html</loc>
+    <lastmod>2024-11-14T09:06:38.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://INFO-511-F24.github.io/final-project-LeanMeanLearningMachines/proposal.html</loc>
+    <lastmod>2024-11-15T20:07:34.979Z</lastmod>
   </url>
 </urlset>

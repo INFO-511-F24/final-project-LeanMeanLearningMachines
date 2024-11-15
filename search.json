@@ -1,45 +1,45 @@
 [
   {
-    "objectID": "proposal.html",
-    "href": "proposal.html",
-    "title": "Proposal title",
+    "objectID": "data/README 2.html",
+    "href": "data/README 2.html",
+    "title": "Data",
     "section": "",
-    "text": "import numpy as np\nimport seaborn as sns"
+    "text": "[Dataset]: Description of the dataset"
   },
   {
-    "objectID": "proposal.html#introduction-and-data",
-    "href": "proposal.html#introduction-and-data",
-    "title": "Proposal title",
-    "section": "Introduction and data",
-    "text": "Introduction and data\nFor each data set:\n\nIdentify the source of the data.\nState when and how it was originally collected (by the original data curator, not necessarily how you found the data).\nWrite a brief description of the observations.\nAddress ethical concerns about the data, if any.\n\nMake sure to load the data and use inline code for some of this information."
+    "objectID": "data/README 2.html#variable-names-and-descriptions",
+    "href": "data/README 2.html#variable-names-and-descriptions",
+    "title": "Data",
+    "section": "Variable Names and Descriptions:",
+    "text": "Variable Names and Descriptions:\n\nvariable: Description"
   },
   {
-    "objectID": "proposal.html#research-question",
-    "href": "proposal.html#research-question",
-    "title": "Proposal title",
-    "section": "Research Question",
-    "text": "Research Question\nYour research question should contain at least three variables, and should be a mix of categorical and quantitative variables. When writing a research question, please think about the following:\n\nWhat is your target population?\nIs the question original?\nCan the question be answered?\n\nFor each data set, include the following:\n\nA well formulated research question. (You may include more than one research question if you want to receive feedback on different ideas for your project. However, one per data set is required.)\nStatement on why this question is important.\nA description of the research topic along with a concise statement of your hypotheses on this topic.\nIdentify the types of variables in your research question. Categorical? Quantitative?"
+    "objectID": "data/README 2.html#data-types",
+    "href": "data/README 2.html#data-types",
+    "title": "Data",
+    "section": "Data Types:",
+    "text": "Data Types:\n\nColumn: data type"
   },
   {
-    "objectID": "proposal.html#glimpse-of-data",
-    "href": "proposal.html#glimpse-of-data",
-    "title": "Proposal title",
-    "section": "Glimpse of data",
-    "text": "Glimpse of data\nFor each data set:\n\nPlace the file containing your data in the data folder of the project repo.\nUse the .head() and .info() functions to provide a glimpse of the data set."
-  },
-  {
-    "objectID": "proposal.html#analysis-plan",
-    "href": "proposal.html#analysis-plan",
-    "title": "Proposal title",
-    "section": "Analysis plan",
-    "text": "Analysis plan\n\nA plan for answering each of the questions including the variables involved, variables to be created (if any), external data to be merged in (if any)."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "contract.html",
+    "href": "contract.html",
+    "title": "Project Title",
     "section": "",
-    "text": "This project was developed by Lean Mean Learning Machines For INFO 511 - Fundamentals of Data Science at the University of Arizona, taught by Dr. Greg Chism. The team is comprised of the following team members.\n\nTeam member 1: Tejas Bhawari - First Year Masters of Science in Data Science Student, RPA Developer\nTeam member 2: Michelle Le - First Year Masters of Science in Data Science student. Software Engineer for American Airlines.\nTeam member 3: Weiliang Deng - second-year phd student in systems and indistrial enginnering.\nTeam member 4: Vidhyananth Sivashanmugam - Second year - Master of Science Data science .\nTeam member 5: Diana Ayala - Second Year Masters of Information Science. Business Intelligence Analyst for Arizona State Univ"
+    "text": "Team Project Contract Project Title: [Title of the final project] Team Members: (NAME: Vidhyananth Sivashanmugam, Contact Information: vidhyananth@arizona.edu) (NAME: Michelle Le, Contact Information: michellele@arizona.edu, 623-692-5443(text or call)) (NAME: Weiliang Deng, Contact Infomation: wldeng@arizona.edu) (NAME: Tejas Bhawari, Contact Information: Tejasbhawari@arizona.edu) [Name, Contact Information] Project Overview Project Description: [A brief overview of the project, including the main objectives and purpose.] Expected Deliverables: [List of specific outputs, such as final visualizations, reports, presentations.] Team Goals Project Goals: [A few bullet points outlining what the team aims to achieve.] Learning Objectives: [What skills or knowledge each team member hopes to develop.] Team Roles and Responsibilities Roles (change as needed): Project Manager: [Name] – Ensures timelines are met, organizes meetings, and manages communications. Data Analyst: [Name] – Responsible for data cleaning, analysis, and exploratory visualizations. Visualization Specialist: [Name] – Designs the final visualizations and makes aesthetic choices. Documentation Lead: [Name] – Keeps detailed notes, ensures all project decisions are documented, and handles the final report. Responsibilities: General Responsibilities: Each team member is responsible for: Participating actively in all meetings. Completing their assigned tasks on time. Communicating openly and promptly if issues arise. Communication Plan Meeting Schedule: Weekly on [Day] at [Time] via [platform]. Primary Communication Platform: [Platform, e.g., Slack]. Decision-Making Process: Decisions will be made by consensus; if a consensus cannot be reached, a vote will be taken. Work Plan and Timeline Milestones: Data Collection and Cleaning: Completed by [Date]. Exploratory Data Analysis: Completed by [Date]. Design of Visualizations: Completed by [Date]. Final Presentation and Report: Completed by [Date]. Task Assignments: [Use a table to assign tasks to team members with due dates.] Accountability and Expectations Attendance Policy: All team members are expected to attend scheduled meetings unless previously discussed. Quality of Work: All deliverables should be completed to a professional standard. Deadlines: All members are responsible for meeting deadlines. If someone cannot meet a deadline, they must notify the team in advance. Conflict Resolution Plan Conflict Management: If a conflict arises, team members will: Discuss the issue openly during a team meeting. Attempt to resolve the issue through compromise. If the conflict persists, consult the project supervisor for guidance. Signatures By signing below, each team member agrees to the terms of this contract and commits to working together effectively and respectfully. [Name]: Tejas Bhawari Date: 10/29/24 [Name]: ________________________ Date: ___________ [Name]: ________________________ Date: ___________ [Name]: ________________________ Date: ___________"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Title",
+    "section": "",
+    "text": "Add project abstract here."
+  },
+  {
+    "objectID": "index.html#abstract",
+    "href": "index.html#abstract",
+    "title": "Project Title",
+    "section": "",
+    "text": "Add project abstract here."
   },
   {
     "objectID": "presentation.html#quarto",
@@ -53,7 +53,7 @@
     "href": "presentation.html#layouts",
     "title": "Project title",
     "section": "Layouts",
-    "text": "Layouts\nYou can use plain text\n\n\n\nor bullet points1\n\n\nor in two columns\n\n\nlike\nthis\n\nAnd add footnotes"
+    "text": "Layouts\nYou can use plain text\n\n\n\nor bullet points1\n\n\nor in two columns\n\n\n\nlike\nthis\n\nAnd add footnotes"
   },
   {
     "objectID": "presentation.html#code",
@@ -105,24 +105,45 @@
     "text": "Feeling adventurous?\n\nYou are welcomed to use the default styling of the slides. In fact, that’s what I expect majority of you will do. You will differentiate yourself with the content of your presentation.\nBut some of you might want to play around with slide styling. Some solutions for this can be found at https://quarto.org/docs/presentations/revealjs."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Project Title",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Add project abstract here."
+    "text": "This project was developed by Lean Mean Learning Machines For INFO 511 - Fundamentals of Data Science at the University of Arizona, taught by Dr. Greg Chism. The team is comprised of the following team members.\n\nTeam member 1: Tejas Bhawari - First Year Masters of Science in Data Science Student, RPA Developer\nTeam member 2: Michelle Le - First Year Masters of Science in Data Science student. Software Engineer for American Airlines.\nTeam member 3: Weiliang Deng - Second year phd student in systems and indistrial enginnering.\nTeam member 4: Vidhyananth Sivashanmugam - Second year - Master of Science Data science .\nTeam member 5: Diana Ayala - Second Year Masters of Information Science. Business Intelligence Analyst for Arizona State Univ"
   },
   {
-    "objectID": "index.html#abstract",
-    "href": "index.html#abstract",
-    "title": "Project Title",
+    "objectID": "proposal.html",
+    "href": "proposal.html",
+    "title": "Flight Matrix",
     "section": "",
-    "text": "Add project abstract here."
+    "text": "import numpy as np\nimport pandas as pd\nimport seaborn as sns"
   },
   {
-    "objectID": "contract.html",
-    "href": "contract.html",
-    "title": "Project Title",
-    "section": "",
-    "text": "Team Project Contract Project Title: [Title of the final project] Team Members: (NAME: Vidhyananth Sivashanmugam, Contact Information: vidhyananth@arizona.edu) (NAME: Michelle Le, Contact Information: michellele@arizona.edu, 623-692-5443(text or call)) [Name, Contact Information] [Name, Contact Information] Project Overview Project Description: [A brief overview of the project, including the main objectives and purpose.] Expected Deliverables: [List of specific outputs, such as final visualizations, reports, presentations.] Team Goals Project Goals: [A few bullet points outlining what the team aims to achieve.] Learning Objectives: [What skills or knowledge each team member hopes to develop.] Team Roles and Responsibilities Roles (change as needed): Project Manager: [Name] – Ensures timelines are met, organizes meetings, and manages communications. Data Analyst: [Name] – Responsible for data cleaning, analysis, and exploratory visualizations. Visualization Specialist: [Name] – Designs the final visualizations and makes aesthetic choices. Documentation Lead: [Name] – Keeps detailed notes, ensures all project decisions are documented, and handles the final report. Responsibilities: General Responsibilities: Each team member is responsible for: Participating actively in all meetings. Completing their assigned tasks on time. Communicating openly and promptly if issues arise. Communication Plan Meeting Schedule: Weekly on [Day] at [Time] via [platform]. Primary Communication Platform: [Platform, e.g., Slack]. Decision-Making Process: Decisions will be made by consensus; if a consensus cannot be reached, a vote will be taken. Work Plan and Timeline Milestones: Data Collection and Cleaning: Completed by [Date]. Exploratory Data Analysis: Completed by [Date]. Design of Visualizations: Completed by [Date]. Final Presentation and Report: Completed by [Date]. Task Assignments: [Use a table to assign tasks to team members with due dates.] Accountability and Expectations Attendance Policy: All team members are expected to attend scheduled meetings unless previously discussed. Quality of Work: All deliverables should be completed to a professional standard. Deadlines: All members are responsible for meeting deadlines. If someone cannot meet a deadline, they must notify the team in advance. Conflict Resolution Plan Conflict Management: If a conflict arises, team members will: Discuss the issue openly during a team meeting. Attempt to resolve the issue through compromise. If the conflict persists, consult the project supervisor for guidance. Signatures By signing below, each team member agrees to the terms of this contract and commits to working together effectively and respectfully. [Name]: ________________________ Date: ___________ [Name]: ________________________ Date: ___________ [Name]: ________________________ Date: ___________ [Name]: ________________________ Date: ___________"
+    "objectID": "proposal.html#introduction-and-data",
+    "href": "proposal.html#introduction-and-data",
+    "title": "Flight Matrix",
+    "section": "Introduction and data",
+    "text": "Introduction and data\n\nflights_dt = pd.read_csv('data/flights.csv')\n\nThe source of the Dataset : TidyTuesday GitHub\nThis data comes from Eurocontrol, an international organization for air traffic control management throughout Europe. Air Traffic Flow Management (ATFM) collects information on daily flights arriving and departing European airports. This data contains 14 columns and 688099 rows for flights from the years of 2017 to 2022. The columns contain information such as the date of the flight, airport designator, airport name, country of the airport, and the numbers of departures and arrivals to the airport. Our focus will be on Belgian airports and our main objective is to explore flight patterns, trends, and relationships across different airports in Belgium. There are no ethical concerns towards the use and analysis of this data."
+  },
+  {
+    "objectID": "proposal.html#research-question",
+    "href": "proposal.html#research-question",
+    "title": "Flight Matrix",
+    "section": "Research Question",
+    "text": "Research Question\nResearch Question: How is the total number monthly flight departures ad arrivals at Brussels Airport comparatively to other major airports in Belgium, and what are the seasonal trends over the year?\nVariables Involved\nQuantative Variables:\n\nFLT_DEP_1 - Contains total number of departing flights\nFLT_ARR_1 - Contains total number of arriving flights\n\nCategorical Variables:\n\nAPT_NAME - Conatins airport names\nSTATE_NAME - Contains name of the country\nMONTH_MON - Contains the month in which the records of departures and arrivals took place\n\nTarget population\nThe target population for this study consists of flight details for major Belgian airports, with comparing Brussels Airport to other airports in the dataset.\nImportance of this research question\nThis research question is important because the Brussels Airport is one of the most busiest Airport in Europe. So, the findings could assist airport management to plan ahead of the seasonal changes which could improve the Airports Efficeincy."
+  },
+  {
+    "objectID": "proposal.html#glimpse-of-data",
+    "href": "proposal.html#glimpse-of-data",
+    "title": "Flight Matrix",
+    "section": "Glimpse of data",
+    "text": "Glimpse of data\n\nflights_dt.head()\n\n\n\n\n\n\n\n\nYEAR\nMONTH_NUM\nMONTH_MON\nFLT_DATE\nAPT_ICAO\nAPT_NAME\nSTATE_NAME\nFLT_DEP_1\nFLT_ARR_1\nFLT_TOT_1\nFLT_DEP_IFR_2\nFLT_ARR_IFR_2\nFLT_TOT_IFR_2\nPivot Label\n\n\n\n\n0\n2016\n1\nJAN\n2016-01-01T00:00:00Z\nEBAW\nAntwerp\nBelgium\n4\n3\n7\nNaN\nNaN\nNaN\nAntwerp (EBAW)\n\n\n1\n2016\n1\nJAN\n2016-01-01T00:00:00Z\nEBBR\nBrussels\nBelgium\n174\n171\n345\n174.0\n161.0\n335.0\nBrussels (EBBR)\n\n\n2\n2016\n1\nJAN\n2016-01-01T00:00:00Z\nEBCI\nCharleroi\nBelgium\n45\n47\n92\n45.0\n45.0\n90.0\nCharleroi (EBCI)\n\n\n3\n2016\n1\nJAN\n2016-01-01T00:00:00Z\nEBLG\nLiège\nBelgium\n6\n7\n13\nNaN\nNaN\nNaN\nLiège (EBLG)\n\n\n4\n2016\n1\nJAN\n2016-01-01T00:00:00Z\nEBOS\nOstend-Bruges\nBelgium\n7\n7\n14\nNaN\nNaN\nNaN\nOstend-Bruges (EBOS)\n\n\n\n\n\n\n\n\nflights_dt.info()\n\n&lt;class 'pandas.core.frame.DataFrame'&gt;\nRangeIndex: 688099 entries, 0 to 688098\nData columns (total 14 columns):\n #   Column         Non-Null Count   Dtype  \n---  ------         --------------   -----  \n 0   YEAR           688099 non-null  int64  \n 1   MONTH_NUM      688099 non-null  int64  \n 2   MONTH_MON      688099 non-null  object \n 3   FLT_DATE       688099 non-null  object \n 4   APT_ICAO       688099 non-null  object \n 5   APT_NAME       688099 non-null  object \n 6   STATE_NAME     688099 non-null  object \n 7   FLT_DEP_1      688099 non-null  int64  \n 8   FLT_ARR_1      688099 non-null  int64  \n 9   FLT_TOT_1      688099 non-null  int64  \n 10  FLT_DEP_IFR_2  208314 non-null  float64\n 11  FLT_ARR_IFR_2  208314 non-null  float64\n 12  FLT_TOT_IFR_2  208314 non-null  float64\n 13  Pivot Label    688099 non-null  object \ndtypes: float64(3), int64(5), object(6)\nmemory usage: 73.5+ MB"
+  },
+  {
+    "objectID": "proposal.html#analysis-plan",
+    "href": "proposal.html#analysis-plan",
+    "title": "Flight Matrix",
+    "section": "Analysis plan",
+    "text": "Analysis plan\nData Exploration:\n\nInitial Exploration:\n\nUse .head() to display first few rows of the dataset.\nUse .info() to check the data types of each column and any null column values.\nFilter the data to only display data where the airport is located in Belgium.\nDetermine the unique cities in Belgium to set up for future comparisons.\n\n\nVariable Preprocessing:\n\nHandling Missing Values:\n\nFiltering out the missing values in key columns to ensure the data consistency during analysis.\n\nData Type Conversion:\n\nEnsuring the columns are in the desired format which is required if not, convert them.\n\n\nStatistical Analysis:\n\nComparative Analysis by Airport:\n\nAPT_NAME and MONTH_MON to calculate the summary statistics for flight departures and arrivals.\nCreate a time series graphs for total departures FLT_DEPT_1 and arrivals FLT_ARR_1 to identify monthly and yearly trends at Brussels Airport compared to other Airports.\n\nSeasonal Analysis:\n\nCreate bar plots and line graph to visualize seasonal trends in departures and arrivals , comparing different airports and months.\n\n\nHypothesis Testing:\n\nUsing Chi-Square Test or H - Test depending on the output."
   }
 ]
