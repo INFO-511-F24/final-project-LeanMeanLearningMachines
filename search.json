@@ -30,16 +30,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Project Title",
+    "title": "Flight Matrix",
     "section": "",
-    "text": "Add project abstract here."
+    "text": "This study aims to analyze flight data from major Belgian airports using the flights.csv dataset, focusing on identifying patterns and trends in flight departures and arrivals. The primary research question investigates how monthly and yearly flight activities at Brussels Airport compare to those at other airports, and whether seasonal trends significantly impact flight volumes. To achieve this, a comprehensive data exploration will be conducted, followed by data preprocessing to ensure consistency and accuracy."
   },
   {
     "objectID": "index.html#abstract",
     "href": "index.html#abstract",
-    "title": "Project Title",
+    "title": "Flight Matrix",
     "section": "",
-    "text": "Add project abstract here."
+    "text": "This study aims to analyze flight data from major Belgian airports using the flights.csv dataset, focusing on identifying patterns and trends in flight departures and arrivals. The primary research question investigates how monthly and yearly flight activities at Brussels Airport compare to those at other airports, and whether seasonal trends significantly impact flight volumes. To achieve this, a comprehensive data exploration will be conducted, followed by data preprocessing to ensure consistency and accuracy."
   },
   {
     "objectID": "presentation.html#quarto",
