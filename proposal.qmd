@@ -1,5 +1,5 @@
 ---
-title: "Flights Dataset"
+title: "Flight Matrix"
 subtitle: "Proposal"
 author: 
   - name: "Lean Mean Learning Machines"
