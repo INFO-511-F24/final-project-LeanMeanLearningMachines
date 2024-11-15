@@ -1,8 +1,8 @@
 ---
-title: "Project Title"
+title: "Flight Matrix"
 subtitle: "INFO 511 - Fall 2024 - Final Project"
 author: 
-  - name: "Team name"
+  - name: "Lean Mean Learning Machines"
     affiliations:
       - name: "School of Information, University of Arizona"
 description: "Project description"
@@ -20,4 +20,4 @@ jupyter: python3
 
 ## Abstract
 
-Add project abstract here.
+This study aims to analyze flight data from major Belgian airports using the `flights.csv` dataset, focusing on identifying patterns and trends in flight departures and arrivals. The primary research question investigates how monthly and yearly flight activities at Brussels Airport compare to those at other airports, and whether seasonal trends significantly impact flight volumes. To achieve this, a comprehensive data exploration will be conducted, followed by data preprocessing to ensure consistency and accuracy.
