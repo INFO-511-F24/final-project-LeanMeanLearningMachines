@@ -53,7 +53,7 @@ Quantative Variables:
 
 Categorical Variables:
 
--   `APT_NAME` - Conatins airport names
+-   `APT_NAME` - Contains airport names
 
 -   `STATE_NAME` - Contains name of the country
 
