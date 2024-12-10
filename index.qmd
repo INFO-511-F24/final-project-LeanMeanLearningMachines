@@ -21,3 +21,55 @@ jupyter: python3
 ## Abstract
 
 This study aims to analyze flight data from major Belgian airports using the `flights.csv` dataset, focusing on identifying patterns and trends in flight departures and arrivals. The primary research question investigates how monthly and yearly flight activities at Brussels Airport compare to those at other airports, and whether seasonal trends significantly impact flight volumes. To achieve this, a comprehensive data exploration will be conducted, followed by data preprocessing to ensure consistency and accuracy.
+
+## **Methodology**
+
+#### **Overview of Analysis**
+
+This analysis provides seasonal trends and monthly flight activity at Brussels Airport compared to other major Belgian Airports for year (2016-2019). It includes exploratory data analysis, statistical tests and modeling to check differences in flight activity among the airports.
+
+#### **Seasonal Analysis**
+
+-              Goal: To find Seasonal trends in flight activity at Brussels Airport and compare them with other airports.
+
+-              Steps:
+
+1.     Combining the monthly data (like grouping departures, arrivals and total flights) for all years to show seasonal patterns.
+
+2.     Calculating monthly averages for Brussels and other airports.
+
+3.     Line Plots showing trends with peak in summer ad dips in winter.
+
+This helps us to understand the travel trends and plan for busy or slow times.
+
+#### **Total number monthly flight departures and arrivals at Brussels Airport**
+
+-              Goal: To Compare monthly flight activity at Brussels Airport with other major airports.
+
+-              Steps:
+
+1.     Combining the monthly data (like grouping departures, arrivals and total flights) for all years to show seasonal patterns.
+
+2.     Comparing Brussels data with average monthly activity of other airports.
+
+3.     Creating a bar and line plot to highlight difference in flight activity.
+
+This plot shows how Brussels dominate flight compared other airports compare for many consecutive years.
+
+#### **Hypothesis Testing**
+
+-              Goal: To Test if there are significant differences in flight activity distributions among Belgian airports.
+
+-              Steps:
+
+1.     Creating a table containing summarized flight activity by airport and month.
+
+2.     Calculating the expected frequencies by assuming flight activity which is evenly distributed among the airports based in marginal totals in the contingency table.
+
+3.     This test compared observed values with expected values using the formula.
+
+4.     The test statistic and corresponding p-value were used to determine whether observed differences were statistically significant.
+
+5.     Creating bar plot to compare the observed and expected frequencies for each airport making deviations clear.
+
+This Test validates the differences in flight activity distribution among airports are due to random chance or reflect meaningful patterns.
