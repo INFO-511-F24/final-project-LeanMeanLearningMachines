@@ -20,7 +20,7 @@ jupyter: python3
 
 ## Abstract
 
-This study aims to analyze flight data from major Belgian airports using the `flights.csv` dataset, focusing on identifying patterns and trends in flight departures and arrivals. The primary research question investigates how monthly and yearly flight activities at Brussels Airport compare to those at other airports, and whether seasonal trends significantly impact flight volumes. To achieve this, a comprehensive data exploration will be conducted, followed by data preprocessing to ensure consistency and accuracy.
+This study aims to analyze flight data from major Belgian airports using the `flights.csv` dataset, focusing on identifying patterns and trends in flight departures and arrivals. The primary research question investigates how monthly and yearly flight activities at Brussels Airport compare to those at other airports in Belgium, and whether seasonal trends significantly impact flight volumes. To achieve this, a comprehensive data exploration will be conducted, followed by data preprocessing to ensure consistency and accuracy.
 
 ## **Methodology**
 
@@ -73,3 +73,13 @@ This plot shows how Brussels dominate flight compared other airports compare for
 5.     Creating bar plot to compare the observed and expected frequencies for each airport making deviations clear.
 
 This Test validates the differences in flight activity distribution among airports are due to random chance or reflect meaningful patterns.
+
+## Results
+
+### A. How does the total number of monthly flight departures and arrivals at Brussels Airport compare to other major airports in Belgium?
+
+By aggregating the data by the variables `YEAR_MONTH` and `APT_NAME`, we were able to get all the total number of flights for departure, arrivals, and totals for each month by year for each airport. We then segregated the Brussels airport data from the rest of the other Belgium airports into two different sets for comparison. For the comparison, we performed a grouping by `YEAR_MONTH` for each of the sets which gave us a sum of the flights across each month for each year for Brussels and all other airports, respectively.
+
+### B. What are the seasonal trends over the year?
+
+how monthly and yearly flight activities at Brussels Airport compare to those at other airports in Belgium, and whether seasonal trends significantly impact flight volumes.
