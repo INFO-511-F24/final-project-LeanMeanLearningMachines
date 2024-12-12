@@ -22,6 +22,60 @@ jupyter: python3
 
 This study aims to analyze flight data from major Belgian airports using the `flights.csv` dataset, focusing on identifying patterns and trends in flight departures and arrivals. The primary research question investigates how monthly and yearly flight activities at Brussels Airport compare to those at other airports in Belgium, and whether seasonal trends significantly impact flight volumes. To achieve this, a comprehensive data exploration will be conducted, followed by data preprocessing to ensure consistency and accuracy.
 
+## **Introduction** 
+
+This project focus on analyzing the flight data from January 2016 to January 2020 in for major airports in Europe, with a focus on Brussels Airport, one of the largest and busiest in Europe. Specifically, this project investigates how the total number of monthly flight departures and arrivals at Brussels Airport compares to other major airports in Belgium and examines the seasonal trends over the year. Insights from this study could assist airport management in anticipating seasonal changes, optimizing resource allocation, and improving operational efficiency.
+
+#### **Data Description**
+
+This data comes from Eurocontrol, an international organization for air traffic control management throughout Europe. Air Traffic Flow Management (ATFM) collects information on daily flights arriving and departing European airports ([Commercial air transport in August 2021: in recovery - Products Eurostat News - Eurostat](https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210914-1)), and we sourced from the GitHub repository associated with the Tidytuesday project ([tidytuesday/data/2022/2022-07-12/readme.md at main · rfordatascience/tidytuesday](https://github.com/rfordatascience/tidytuesday/blob/main/data/2022/2022-07-12/readme.md)).  This data contains 15 columns and 7306 rows for flights from the 2016 to 2019. The columns contain information such as the date of the flight, airport designator, airport name, country of the airport, and the numbers of departures and arrivals to the airport.  
+
+Key variables we have applied in our research are:
+
+**Quantative Variables:**
+
+-    FLT_DEP_1 - Contains total number of departing flights
+
+-    FLT_ARR_1 - Contains total number of arriving flights
+
+**Categorical Variables:**
+
+-   APT_NAME - Contains airport names
+
+<!-- -->
+
+-   STATE_NAME - Contains name of the country
+
+-   MONTH_MON - Contains the month in which the records of departures and arrivals took place
+
+#### Data **Cleaning and** Preprocessing
+
+To ensure data integrity and analytical clarity, several preprocessing steps were undertaken:
+
+-   Date Conversion: The variable YEAR_MONTH was converted to a date-time format for temporal analysis.
+
+-    Derived Variables: New variables, such as total monthly flights (sum of departures and arrivals), were created to facilitate trend analysis.
+
+-   Handling Missing Values: Observations with incomplete data for key variables were excluded.
+
+-   Grouping and Aggregation: Data was aggregated by airport and month to examine trends and seasonal patterns.
+
+#### Exploratory Data Analysis
+
+As is shown in Fig. 1 below, Brussels Airport consistently showed the highest flight activity, highlighting its dominant role in Belgian air traffic. The chart also exhibits clear seasonal peaks during the summer and declines in winter.
+
+![](images/paste-1.png)
+
+Fig.1 Monthly departures and arrivals at Brussels Airport and other major airports from 2016 to 2019.
+
+![](images/paste-2.png)
+
+Fig.2 The average monthly flight activity for Brussels Airport and other major airports.
+
+Fig. 2, the average monthly trend figure also presents strong seasonality at Brussels Airport, with a gradual increase from January to July, peaking in the summer, and a subsequent decline toward December.
+
+These 2 figures confirm that there are clear correlations between monthly flight activity and seasonal trends were observed across airports.
+
 ## **Methodology**
 
 #### **Overview of Analysis**
