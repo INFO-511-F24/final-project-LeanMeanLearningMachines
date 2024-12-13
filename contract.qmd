@@ -1,51 +1,113 @@
 Team Project Contract
-Project Title: [Flight Matrix]
+
+# Project Title: \[Flight Matrix\] 
+
 Team Members:
-(NAME: Vidhyananth Sivashanmugam, Contact Information: vidhyananth@arizona.edu)
-(NAME: Michelle Le, Contact Information: michellele@arizona.edu, 623-692-5443(text or call))
-(NAME: Weiliang Deng, Contact Infomation: wldeng@arizona.edu)
-(NAME: Tejas Bhawari, Contact Information: Tejasbhawari@arizona.edu)
-[Name, Contact Information]
-Project Overview
-Project Description: [A brief overview of the project, including the main objectives and purpose.]
-Expected Deliverables: [List of specific outputs, such as final visualizations, reports, presentations.]
-Team Goals
-Project Goals: [A few bullet points outlining what the team aims to achieve.]
-Learning Objectives: [What skills or knowledge each team member hopes to develop.]
-Team Roles and Responsibilities
-Roles (change as needed):
-Project Manager: [Name] – Ensures timelines are met, organizes meetings, and manages communications.
-Data Analyst: [Name] – Responsible for data cleaning, analysis, and exploratory visualizations.
-Visualization Specialist: [Name] – Designs the final visualizations and makes aesthetic choices.
-Documentation Lead: [Name] – Keeps detailed notes, ensures all project decisions are documented, and handles the final report.
-Responsibilities:
-General Responsibilities: Each team member is responsible for:
-Participating actively in all meetings.
-Completing their assigned tasks on time.
-Communicating openly and promptly if issues arise.
-Communication Plan
-Meeting Schedule: Weekly on [Day] at [Time] via [platform].
-Primary Communication Platform: [Platform, e.g., Slack].
-Decision-Making Process: Decisions will be made by consensus; if a consensus cannot be reached, a vote will be taken.
-Work Plan and Timeline
-Milestones:
-Data Collection and Cleaning: Completed by [Date].
-Exploratory Data Analysis: Completed by [Date].
-Design of Visualizations: Completed by [Date].
-Final Presentation and Report: Completed by [Date].
-Task Assignments: [Use a table to assign tasks to team members with due dates.]
-Accountability and Expectations
-Attendance Policy: All team members are expected to attend scheduled meetings unless previously discussed.
-Quality of Work: All deliverables should be completed to a professional standard.
-Deadlines: All members are responsible for meeting deadlines. If someone cannot meet a deadline, they must notify the team in advance.
-Conflict Resolution Plan
-Conflict Management: If a conflict arises, team members will:
-Discuss the issue openly during a team meeting.
-Attempt to resolve the issue through compromise.
-If the conflict persists, consult the project supervisor for guidance.
-Signatures
-By signing below, each team member agrees to the terms of this contract and commits to working together effectively and respectfully.
-[Name]: Tejas Bhawari    Date: 10/29/24
-[Name]: ________________________ Date: ___________
-[Name]: Weiliang Deng    Date: 11/15/24
-[Name]: ________________________ Date: ___________
+
+-   (NAME: Vidhyananth Sivashanmugam, Contact Information: vidhyananth\@arizona.edu)
+
+-   (NAME: Michelle Le, Contact Information: michellele\@arizona.edu, 623-692-5443(text or call))
+
+-   (NAME: Weiliang Deng, Contact Infomation: wldeng\@arizona.edu)
+
+-   (NAME: Tejas Bhawari, Contact Information: Tejasbhawari\@arizona.edu)
+
+## Project Overview 
+
+**Project Description:**
+
+Our project aims to analyze flight data from major Belgian airports using the flights.csv dataset, focusing on identifying patterns and trends in flight departures and arrivals.
+
+**Expected Deliverables:**
+
+We expect that we will work together to meet the milestones before the deadlines posted in Dr. Chism's INFO 511 schedule.
+
+**Team Goals Project Goals:**
+
+-   We aim to work as a team to collaboratively answer our research questions
+
+-   We will come together to choose appropriate data
+
+-   We will share ideas on how to analyze and explore the data
+
+**Learning Objectives:**
+
+-   We would like to enhance our skills in working collaboratively on a research project with strong statistical features and visualizations
+
+-   We will create strong visualizations with the lessons we have learned throughout the semester.
+
+-   We would like to apply statistical methods that we have learned throughout the semester to handle our hypotheses and research questions
+
+**Team Roles and Responsibilities Roles (change as needed):**
+
+-   Project Manager: Michelle Le – Ensures timelines are met, organizes meetings, and manages communications.
+
+-   Data Analyst: Tejas Bhawari – Responsible for data cleaning, analysis, and exploratory visualizations.
+
+-   Presentation Specialist: Vidhyananth Sivashanmugam – Designs the final visualizations and makes aesthetic choices.
+
+-   Documentation Lead: Weiliang Deng – Keeps detailed notes, ensures all project decisions are documented, and handles the final report.
+
+## **Responsibilities:** 
+
+### General Responsibilities:
+
+**Each team member is responsible for:**
+
+-   Participating actively in all meetings.
+
+-   Completing their assigned tasks on time.
+
+-   Communicating openly and promptly if issues arise.
+
+-   Communication Plan Meeting Schedule: Whenever we can or need to, checking Slack daily.
+
+-   Primary Communication Platform: Slack.
+
+## **Decision-Making Process:** 
+
+Decisions will be made by consensus; if a consensus cannot be reached, a vote will be taken.
+
+## Work Plan and Timeline Milestones: 
+
+-   Milestone 1: Completed by October 14.
+
+-   Milestone 2: Completed by November 11.
+
+-   Milestone 3: Completed by December 6.
+
+-   Milestone 4: Completed by December 13.
+
+-   Presentation: Completed by December 18.
+
+## Accountability and Expectations Attendance Policy:
+
+All team members are expected to attend scheduled meetings unless previously discussed.
+
+**Quality of Work:**
+
+All deliverables should be completed to a professional standard.
+
+**Deadlines:**
+
+All members are responsible for meeting deadlines. If someone cannot meet a deadline, they must notify the team in advance.
+
+**Conflict Resolution Plan Conflict Management:**
+
+If a conflict arises, team members will:
+
+-   Discuss the issue openly during a team meeting.
+
+-   Attempt to resolve the issue through compromise.
+
+-   If the conflict persists, consult the project supervisor for guidance.
+
+Signatures By signing below, each team member agrees to the terms of this contract and commits to working together effectively and respectfully.
+
+\[Name\]: Tejas Bhawari Date: 10/29/24
+
+\[Name\]: Michelle Le Date: 12/12/24
+
+\[Name\]: Weiliang Deng Date: 11/15/24
+
+\[Name\]: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date: \_\_\_\_\_\_\_\_\_\_\_
