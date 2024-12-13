@@ -22,7 +22,7 @@ jupyter: python3
 
 This study aims to analyze flight data from major Belgian airports using the `flights.csv` dataset, focusing on identifying patterns and trends in flight departures and arrivals. The primary research question investigates how monthly and yearly flight activities at Brussels Airport compare to those at other airports in Belgium, and whether seasonal trends significantly impact flight volumes. To achieve this, a comprehensive data exploration will be conducted, followed by data preprocessing to ensure consistency and accuracy.
 
-## **Introduction** 
+## **Introduction**
 
 This project focus on analyzing the flight data from January 2016 to January 2020 in for major airports in Europe, with a focus on Brussels Airport, one of the largest and busiest in Europe. Specifically, this project investigates how the total number of monthly flight departures and arrivals at Brussels Airport compares to other major airports in Belgium and examines the seasonal trends over the year. Insights from this study could assist airport management in anticipating seasonal changes, optimizing resource allocation, and improving operational efficiency.
 
@@ -34,9 +34,9 @@ Key variables we have applied in our research are:
 
 **Quantative Variables:**
 
--    FLT_DEP_1 - Contains total number of departing flights
+-   FLT_DEP_1 - Contains total number of departing flights
 
--    FLT_ARR_1 - Contains total number of arriving flights
+-   FLT_ARR_1 - Contains total number of arriving flights
 
 **Categorical Variables:**
 
@@ -54,7 +54,7 @@ To ensure data integrity and analytical clarity, several preprocessing steps wer
 
 -   Date Conversion: The variable YEAR_MONTH was converted to a date-time format for temporal analysis.
 
--    Derived Variables: New variables, such as total monthly flights (sum of departures and arrivals), were created to facilitate trend analysis.
+-   Derived Variables: New variables, such as total monthly flights (sum of departures and arrivals), were created to facilitate trend analysis.
 
 -   Handling Missing Values: Observations with incomplete data for key variables were excluded.
 
@@ -132,8 +132,8 @@ This Test validates the differences in flight activity distribution among airpor
 
 ### A. How does the total number of monthly flight departures and arrivals at Brussels Airport compare to other major airports in Belgium?
 
-By aggregating the data by the variables `YEAR_MONTH` and `APT_NAME`, we were able to get all the total number of flights for departure, arrivals, and totals for each month by year for each airport. We then segregated the Brussels airport data from the rest of the other Belgium airports into two different sets for comparison. For the comparison, we performed a grouping by `YEAR_MONTH` for each of the sets which gave us a sum of the flights across each month for each year for Brussels and all other airports, respectively.
+By aggregating the data by the variables `YEAR_MONTH` and `APT_NAME`, we were able to get all the total number of flights for departure, arrivals, and totals for each month by year for each airport. We then segregated the Brussels airport data from the rest of the other Belgium airports into two different sets for comparison. For the comparison, we performed a grouping by `YEAR_MONTH` for each of the sets which gave us a sum of the flights across each month for each year for Brussels and all other airports, respectively. When we place this data on a line graph to represent time, we get Figure 1. This graph highlights a few key aspects: 1) Brussels is the most popular airport by number of flights in Belgium with more than double the number of flights per month (with exception to April of 2016 - see Discussion for more information). 2) There appears to be seasonal patterns across the years of 2016 to 2019 for both Brussels airport as well as the rest of Belgium airports, where the peak season appear to be summer time and the lowest number of flights during winter.
 
 ### B. What are the seasonal trends over the year?
 
-how monthly and yearly flight activities at Brussels Airport compare to those at other airports in Belgium, and whether seasonal trends significantly impact flight volumes.
+To evaluate the seasonal trend, we decided to view the trend over the months of a year and aggregating the years from 2016 to 2019 using the variable `MONTH_NUM`. This allows us to look at the data with a perspective that is more general in terms of months across these years. When we plotted this data onto a line plot (Figure 2), we have a more specific trend that shows the busy season of the summer and fall months that lasts from May to September. The number of flights decrease as winter/spring season begins from October until April.
