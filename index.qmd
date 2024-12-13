@@ -22,7 +22,7 @@ jupyter: python3
 
 This study aims to analyze flight data from major Belgian airports using the `flights.csv` dataset, focusing on identifying patterns and trends in flight departures and arrivals. The primary research question investigates how monthly and yearly flight activities at Brussels Airport compare to those at other airports, and whether seasonal trends significantly impact flight volumes. To achieve this, a comprehensive data exploration will be conducted, followed by data preprocessing to ensure consistency and accuracy.
 
-## **Introduction** 
+## **Introduction**
 
 This project focus on analyzing the flight data from January 2016 to January 2020 in for major airports in Europe, with a focus on Brussels Airport, one of the largest and busiest in Europe. Specifically, this project investigates how the total number of monthly flight departures and arrivals at Brussels Airport compares to other major airports in Belgium and examines the seasonal trends over the year. Insights from this study could assist airport management in anticipating seasonal changes, optimizing resource allocation, and improving operational efficiency.
 
@@ -34,9 +34,9 @@ Key variables we have applied in our research are:
 
 **Quantative Variables:**
 
--    FLT_DEP_1 - Contains total number of departing flights
+-   FLT_DEP_1 - Contains total number of departing flights
 
--    FLT_ARR_1 - Contains total number of arriving flights
+-   FLT_ARR_1 - Contains total number of arriving flights
 
 **Categorical Variables:**
 
@@ -54,7 +54,7 @@ To ensure data integrity and analytical clarity, several preprocessing steps wer
 
 -   Date Conversion: The variable YEAR_MONTH was converted to a date-time format for temporal analysis.
 
--    Derived Variables: New variables, such as total monthly flights (sum of departures and arrivals), were created to facilitate trend analysis.
+-   Derived Variables: New variables, such as total monthly flights (sum of departures and arrivals), were created to facilitate trend analysis.
 
 -   Handling Missing Values: Observations with incomplete data for key variables were excluded.
 
@@ -127,3 +127,28 @@ This plot shows how Brussels dominate flight compared other airports compare for
 5.     Creating bar plot to compare the observed and expected frequencies for each airport making deviations clear.
 
 This Test validates the differences in flight activity distribution among airports are due to random chance or reflect meaningful patterns.
+
+## **Discussion**
+
+#### **Summary of Results**
+
+This project provides insights into flight dynamics at Belgian airports, with specific focus on the Brussels Airport, which is the largest and busies one in Belgium. The results show that Brussels Airport consistently exhibits the highest monthly flight activity compared to other major airports in Belgium. Seasonal trends are evident, with notable peaks during the summer months and declines in winter. And these support the hypothesis that Brussels Airport plays a central role in Belgian air traffic and highlight the importance of seasonality in air traffic management. Statistical analysis further confirms significant differences in flight activity across airports, underscoring Brussels Airport’s dominance in departures and arrivals.
+
+#### **Limitations and Possible Improvements**
+
+-   **Data scope:** This project performs analysis on relatively old dataset, spanning from 2016 to 2019. This project intentionally excludes the COVID period, which has a significantly negative impact on the global air industry. To overcome it, we can work on larger dataset, to analyze long-term trend.
+-   **Outliers:** This analysis focuses on overall trends and does not account for specific outliers. For example, in April 2016 (Fig. 1), flight activity decreased at Brussels Airport while increasing at other airports. This anomaly aligns with the terrorist attacks at Brussels Airport, as reported by BBC News ([Brussels explosions: What we know about airport and metro attacks - BBC News](https://www.bbc.com/news/world-europe-35869985)).
+-   **Statistical Constraints:** Hypothesis testing assumes independence among groups, which may not fully reflect the interconnected nature of air traffic systems. We can try some advanced methods to better mine the data and figure out the deeper relationships.
+-   **External Variables:** The analysis only focuses on the results (number of changes) and does not account for external factors, such as economic conditions, or weather events, which may impact flight activity. To improve it, we need to combine several datasets, and include additional variables, like passenger volumes, flight delays, or economic indicators.
+
+#### **Future Works**
+
+In the future, we can do further analysis on:
+
+-   The impact of flight status on passenger satisfaction.
+
+-   Predicting flight activity based on historical records.
+
+-   The influence of mobile device services (such as online check-in) on flight operations. 
+
+In conclusion, this project focuses on previous flight records of Brussels Airport in Belgian, highlighting the critical role of Brussels Airport in Belgian. The results exhibit the significance of seasonality in flight operations and provide a foundation for further exploration and practical applications in air traffic management and airport planning.
