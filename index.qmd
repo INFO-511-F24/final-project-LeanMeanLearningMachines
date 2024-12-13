@@ -138,9 +138,7 @@ With our p-value set at 0.05, this means that we are able to reject the null hyp
 
 In this section, we show the differences between the expected and observed values for flight distributions. Figure 3 is a bar plot that shows the deviation from the expected difference of 0 from the expected numbers for each airport at each month of the year, labeled as `month, airport`, with an aggregation of the years 2016-2019.
 
-![](images/paste-3.png)
-Figure 3 displays a bar plot representing the amount of deviation that the observed data had from the expected difference of 0 for each airport at each month of the year from 2016 to 2019.
-
+![](images/paste-3.png) Figure 3 displays a bar plot representing the amount of deviation that the observed data had from the expected difference of 0 for each airport at each month of the year from 2016 to 2019.
 
 ## **Discussion**
 

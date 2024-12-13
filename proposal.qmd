@@ -94,9 +94,11 @@ flights_dt.info()
 **Variable Preprocessing:**
 
 1.  Handling Missing Values:
-    -   Filtering out the missing values in key columns to ensure the data consistency during analysis.
+    -   We filter out any data that appears to be missing information on number of flights for arrivals, departures, and totals.
 2.  Data Type Conversion:
-    -   Ensuring the columns are in the desired format which is required if not, convert them.
+    -   Ensuring the columns are in the desired format which is required if not, convert them. Columns that represented date time have been appropriately converted.
+3.  Selecting data that is pre-pandemic:
+    -   The reason we had chose data from 2016-2019 is because we want to see the trends of flight distribution without the disturbances of significant events such as pandemic. However, it is important to note that our data does contain an outlier that is not as extreme as pandemic effects which will be discussed in the discussion section.
 
 **Statistical Analysis:**
 
