@@ -13,3 +13,5 @@ This project was developed by **Lean Mean Learning Machines** For [INFO 511 - Fu
 -   Team member 3: Weiliang Deng - Second year phd student in systems and indistrial enginnering.
 
 -   Team member 4: Vidhyananth Sivashanmugam - Second year - Master of Science Data science.
+
+Link to our presentation: <https://arizona.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a95c0b9a-fe29-4946-be09-b249000a2fca>
